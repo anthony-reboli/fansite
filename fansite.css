@@ -1,0 +1,146 @@
+nav {
+
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+    background: #5A8DC4;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    font-family: "Calibri";
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+nav ul#menu {
+    margin-right: 8px;
+}
+nav ul#logo li {
+    width: auto;
+}
+nav ul#logo li a {
+    display: block;
+}
+nav ul#logo li img {
+    padding: 5px;
+    height: 90%;
+}
+
+
+nav ul li {
+    position: relative;
+    height: 100%;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #EEF2F5;
+    transition: color 0.25s ease-out;
+}
+nav ul > li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 8px;
+}
+nav ul li a:hover {
+    color: rgb(174, 186, 199);
+}
+
+
+nav ul li a.dropdown-start {
+    position: relative;
+}
+nav ul.dropdown {
+    position: absolute;
+    display: none;
+    z-index: -3;
+    width: 192px;
+    right: 0;
+    padding: 8px 8px;
+    background: #fbfbfb;
+    height: auto;
+    border-top: 3px solid #2ea3f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 8px 8px;
+}
+nav ul.dropdown li {
+    height: auto;
+    display: block;
+}
+nav ul.dropdown li a {
+    display: block;
+    padding: 8px 8px;
+    border-radius: 8px;
+    transition: color 0.25s ease-out, background 0.25s ease-out;
+}
+nav ul.dropdown li a:hover {
+    background: rgba(0, 0, 0, 0.025);
+}
+
+
+nav ul.dropdown:hover {
+    display: block;
+}
+nav ul li a.dropdown-start:hover + ul.dropdown {
+    display: block;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://media.giphy.com/media/NxWk4NY7C59Fm/giphy.gif");
+    background-size: cover; 
+    margin-top: 90px;
+    padding: 20px;
+    border-radius: 30px;
+    height: 520px;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button {
+  
+  color: white;
+  font-family: 'Impact';
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 40px;
+  margin-top: 180px;
+  cursor: pointer;
+  width: 150%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+.news{
+    background-color: #F95108;
+}
+.bout{
+    background-color: #F9A408;
+}
+.forum{
+    background-color: #F9E908;
+}
+.tele{
+    background-color: #F9A408;
+}
+.faq{
+    background-color: #F95108;
+}
+
+
