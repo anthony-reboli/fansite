@@ -1,109 +1,23 @@
-nav {
 
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    z-index: 999;
-    background: #5A8DC4;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
-    font-family: "Calibri";
+body{
+    background-color: #120402;
 }
-nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-nav ul#menu {
-    margin-right: 8px;
-}
-nav ul#logo li {
-    width: auto;
-}
-nav ul#logo li a {
-    display: block;
-}
-nav ul#logo li img {
-    padding: 5px;
-    height: 90%;
-}
-
-
-nav ul li {
-    position: relative;
-    height: 100%;
-    list-style: none;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #EEF2F5;
-    transition: color 0.25s ease-out;
-}
-nav ul > li > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 0 8px;
-}
-nav ul li a:hover {
-    color: rgb(174, 186, 199);
-}
-
-
-nav ul li a.dropdown-start {
-    position: relative;
-}
-nav ul.dropdown {
-    position: absolute;
-    display: none;
-    z-index: -3;
-    width: 192px;
-    right: 0;
-    padding: 8px 8px;
-    background: #fbfbfb;
-    height: auto;
-    border-top: 3px solid #2ea3f2;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0 0 8px 8px;
-}
-nav ul.dropdown li {
-    height: auto;
-    display: block;
-}
-nav ul.dropdown li a {
-    display: block;
-    padding: 8px 8px;
-    border-radius: 8px;
-    transition: color 0.25s ease-out, background 0.25s ease-out;
-}
-nav ul.dropdown li a:hover {
-    background: rgba(0, 0, 0, 0.025);
-}
-
-
-nav ul.dropdown:hover {
-    display: block;
-}
-nav ul li a.dropdown-start:hover + ul.dropdown {
-    display: block;
-}
-
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-image: url("https://media.giphy.com/media/NxWk4NY7C59Fm/giphy.gif");
     background-size: cover; 
-    margin-top: 90px;
+    margin-top: 40px;
     padding: 20px;
     border-radius: 30px;
     height: 520px;
+}
+figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -140px;
 }
 article {
     display: flex;
@@ -133,7 +47,7 @@ button:hover {
 .bout{
     background-color: #F9A408;
 }
-.forum{
+.cast{
     background-color: #F9E908;
 }
 .tele{
@@ -143,4 +57,82 @@ button:hover {
     background-color: #F95108;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;   
 
+}
+.pres{
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://media2.giphy.com/media/7TZvWKVkm0xXi/source.gif");
+    background-size: cover; 
+    margin-top: 90px;
+    padding: 20px;
+    border-radius: 30px;
+    height: 520px;
+}
+#text{
+    font-family: 'Cambria';
+    font-size: 22px;
+    color: white;
+    width: 50%;
+    padding-right: 60px;
+
+}
+#video{
+    padding: 10px;
+    border-style:solid;
+    margin-top: 50px;
+    border-radius:10px;
+    height: 320px; 
+    border-color: white;
+}
+
+.music{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("image/back-musique.webp");
+    background-size: cover; 
+    margin-top: 90px;
+    padding: 150px;
+    border-radius: 30px;
+    height: 580px;
+}
+#logo2{
+    width: 30%;
+}
+#bille{
+    margin-left:-40px;
+    width: 40%
+}
+#bille p{
+    font-family: 'Monaco';
+    font-size: 25px;
+    color: white;
+}
+.vente{
+    background-color: #F92908;
+    width: 90%;
+}
+.car{
+    background-image: url("image/voiture.jpg");
+    background-size: cover; 
+    margin-top: 90px;
+    padding: 100px;
+    border-radius: 30px;
+    height: 800px; 
+}
+
+.louer{
+    background-color: #3A839A;
+    width: 30%;
+}
+#fox{
+    font-family: 'Monaco'; 
+    font-size: 22px;
+    color: #F0D688;
+    width: 40%;
+}
