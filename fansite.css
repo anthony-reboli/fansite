@@ -1,139 +1,22 @@
-#bodyt{
-	background-image: url("https://laligue87-fol.org/wp/wp-content/uploads/2017/10/cool-black-background-white-wall-abstract-wallpapers-inspirational-creative-graphics-photo-black-backgrounds-926392068.jpg");
-}
 
-main {
-	text-align: center;
+.bodyn{
+    background-color: #120402;
 }
-#ancret{
-	margin-top: 15px;
-	display:flex;
-	justify-content: space-around;
-}
-
-#vidt {
-	display: flex;
-	flex-direction: column;
-	border:solid;
-	border-color: black;
-	border-width: 2px;
-	margin-top: 120px;
-}
-
-#vid1t{
-
-	display:flex;
-		justify-content: space-around;
-
-}
-
-#textt {
-border:solid;
-box-shadow: 6px 6px 6px 6px gold;
-padding-top: 12px;
-}
-
-#text3t{
-	border:solid;
-box-shadow: 6px 6px 6px 6px gold;
-padding-top: 12px;
-	color:white;
-  	font-size:15px;
-  	font-family: Gadget
-}
-#img1t {
-	width: 500px;
-	height: 500px;
-}
-
-#vidst {
-	display: flex;
-	flex-direction: column;
-	border:solid;
-	border-color: black;
-	border-width: 2px;
-	margin-top: 120px;
-}
-
-#vids1t{
-
-	display:flex;
-		justify-content: space-around;
-}
-
-#textst {
-border:solid;
-box-shadow: 6px 6px 6px 6px gold;
-padding-top: 12px;
-}
-#img2t {
-	width: 500px;
-	height: 500px;
-}
-
-#section2t {
-	display: flex;
-	flex-direction: column;
-	border:solid;
-	border-color: black;
-	border-width: 2px;
-	margin-top: 120px;
-}
-
-#vids2t{
-
-	display:flex;
-		justify-content: space-around;
-}
-
-#texts2t {
-border:solid;
-box-shadow: 6px 6px 6px 6px gold;
-padding-top: 12px;
-}
-#img3t {
-	width: 500px;
-	height: 500px;
-}
-
-h1{
-	font-size: 25px;
-	font-family: cursive;
-	color:#F0A822;
-}
-
-p{
-	color:white;
-  	font-size:25px;
-  	font-family: Gadget;
-  	animation-name: slidein ;
-animation-duration: 10s ;
-
-}
-
-#colort{
-		color:white;
-  	font-size:25px;
-  	font-family: Gadget
-}
-
-}
-#section2 {
+.headern {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-image: url("https://media.giphy.com/media/NxWk4NY7C59Fm/giphy.gif");
     background-size: cover; 
-    margin-top: 40px;
-    padding: 20px;
-    border-radius: 30px;
+    margin-top: 0px;
+    padding: 0px;
     height: 520px;
 }
 figure{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: -140px;
+    margin-bottom: -30px;
 }
 article {
     display: flex;
@@ -149,7 +32,7 @@ button {
   font-size: 25px;
   padding: 15px;
   border-radius: 40px;
-  margin-top: 10px;
+  margin-top: 20px;
   cursor: pointer;
   width: 150%;
   opacity: 0.9;
@@ -157,6 +40,387 @@ button {
 button:hover {
   opacity:1;
 }
+.news{
+    background-color: #F95108;
+}
+.bout{
+    background-color:  #F9E908;
+}
+.cast{
+    background-color: #F9A408;
+}
+.tele{
+    background-color: #F9A408;
+}
+.faq{
+    background-color: #F95108;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;   
+
+}
+.pres{
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://media2.giphy.com/media/7TZvWKVkm0xXi/source.gif");
+    background-size: cover; 
+    margin-top: 5px;
+    padding: 10px;
+    height: 550px;
+}
+#text{
+    font-family: 'Cambria';
+    font-size: 22px;
+    color: white;
+    width: 50%;
+    padding-right: 60px;
+
+}
+#video{
+    padding: 10px;
+    border-style:solid;
+    margin-top: 50px;
+    border-radius:10px;
+    height: 320px; 
+    border-color: white;
+}
+
+.music{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("image/back-musique.webp");
+    background-size: cover; 
+    margin-top: 5px;
+    padding: 150px;
+    height: 580px;
+}
+#logo2{
+    width: 30%;
+}
+#bille{
+    margin-left:-40px;
+    width: 40%
+}
+#bille p{
+    font-family: 'Monaco';
+    font-size: 25px;
+    color: white;
+}
+.vente{
+    background-color: #F92908;
+    width: 90%;
+}
+.car{
+    background-image: url("image/voiture.jpg");
+    background-size: cover; 
+    margin-top: 5px;
+    padding: 100px;
+    height: 800px; 
+}
+
+.louer{
+    background-color: #3A839A;
+    width: 30%;
+}
+#fox{
+    font-family: 'Monaco'; 
+    font-size: 22px;
+    color: #F0D688;
+    width: 40%;
+}
+#contact {
+    background-color: black;
+    height: 150px;
+    margin-top: 100px;
+    padding: 10px;
+
+}
+
+#contact p {
+   
+    font-family: 'Impact';
+    font-size: 22px;
+    color: #E5E524;
+    ;
+}
+
+ul.social {
+    list-style: none;
+    display: block;
+    padding: 7px;
+
+}
+ul.social li {
+    display: inline-block;
+    margin: 20px;
+    width: 32px;
+    height: 32px;
+}
+
+ul.social li a {
+    display: block;
+    border-radius: 3px;
+    color: white !important;
+    padding: 4px;
+    height: 100%;
+}
+
+ul.social li.facebook a {
+    background-image: url("image/facebook-logo.jpg");
+    background-size: 50px;
+    background-position: center;
+}
+ul.social li.linkedin a {
+    background-image: url("image/LinkedIn-Logo.jpg");
+    background-size: 50px;
+    background-position: center;
+}
+ul.social li.twitter a {
+    background-image: url("image/twitter-logo.jpg");
+    background-size: 38px;
+    background-position: center;
+}
+ul.social li.instagram a {
+    background-image: url("image/instagram-logo.jfif");
+    background-size: 45px;
+    background-position: center;
+}
+
+/*boutique*/
+
+.bodyb{
+    background-image: url("https://pendulo.com/imagenes_grandes/9780062/978006241914.GIF");
+    background-size: cover;
+
+}
+
+.sectionb{
+    background-color: black;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    flex: 0 0 0;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    position: relative;
+    display: flex;
+    padding: 8px;
+    border-radius: 8px;
+    border-style:solid;
+    box-shadow: 0 0 20px black;
+    margin: 30px;
+    width: 300px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    transition: filter 0.25s ease-out;
+}
+nav ul li::after {
+    content: "";
+    border-radius: 0px 0px 8px 8px;
+    z-index: 2;
+    position: absolute;
+    display: block;
+    top: calc(100% - 2em - 18px);
+    left: 0;
+    width: 100%;
+    height:52px;
+    background: rgba(0, 0, 0, 0.60);
+    pointer-events: none;
+}
+
+nav ul li:hover {
+    filter: brightness(112.5%);
+}
+ul li#bande {
+    background-image: url("image/BD-logo.jpg");
+}
+ul li#chaus {
+    background-image: url("image/chaus-logo.jpg");
+}
+ul li#jouet {
+    background-image: url("image/jouet-logo.jpg");
+}
+ul li#figue {
+    background-image: url("image/figurine-logo.jpg");
+}
+ul li#basket {
+    background-image: url("image/basket-logo.jpg");
+}
+ul li#film {
+    background-image: url("image/film-logo.jpg");
+}
+
+nav ul li a {
+    z-index: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+nav ul li a span {
+    color: white;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    font-size: 24px;
+    text-shadow: 0 0 4px black;
+}
+
+
+/*casting & fan*/
+
+#bodyt{
+    background-image: url("https://laligue87-fol.org/wp/wp-content/uploads/2017/10/cool-black-background-white-wall-abstract-wallpapers-inspirational-creative-graphics-photo-black-backgrounds-926392068.jpg");
+}
+
+main {
+    text-align: center;
+}
+#ancret{
+    margin-top: 15px;
+    display:flex;
+    justify-content: space-around;
+}
+
+#vidt {
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 120px;
+}
+
+#vid1{
+
+    display:flex;
+        justify-content: space-around;
+
+}
+
+#textt {
+border:solid;
+box-shadow: 6px 6px 6px 6px gold;
+padding-top: 12px;
+}
+
+#text3t{
+    border:solid;
+box-shadow: 6px 6px 6px 6px gold;
+padding-top: 12px;
+    color:white;
+    font-size:15px;
+    font-family: Gadget
+}
+#img1t {
+    width: 500px;
+    height: 500px;
+}
+
+#vidst {
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 120px;
+}
+
+#vids1t{
+
+    display:flex;
+        justify-content: space-around;
+}
+
+#textst {
+border:solid;
+box-shadow: 6px 6px 6px 6px gold;
+padding-top: 12px;
+}
+#img2t {
+    width: 500px;
+    height: 500px;
+}
+
+#section2t {
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 120px;
+}
+
+#vids2t{
+
+    display:flex;
+        justify-content: space-around;
+}
+
+#texts2t {
+border:solid;
+box-shadow: 6px 6px 6px 6px gold;
+padding-top: 12px;
+}
+#img3t {
+    width: 500px;
+    height: 500px;
+}
+
+h1{
+    font-size: 25px;
+    font-family: cursive;
+    color:#F0A822;
+}
+
+p{
+    color:white;
+    font-size:25px;
+    font-family: Gadget;
+    animation-name: slidein ;
+animation-duration: 10s ;
+
+}
+
+#colort{
+        color:white;
+    font-size:25px;
+    font-family: Gadget
+}
+
+}
+#section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://media.giphy.com/media/NxWk4NY7C59Fm/giphy.gif");
+    background-size: cover; 
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    height: 520px;
+}
+
 
 .newst{
     background-color: #F95108;
@@ -179,16 +443,16 @@ color:gold;
 }
 
 a{
-	font-size: 25px;
+    font-size: 25px;
 }
 
 .lient:hover {
-	background-color: gold;
-	color:#E64702;
+    background-color: gold;
+    color:#E64702;
 }
 #lientt {
-	font-size: 25px;
-	color:#EE5014;
+    font-size: 25px;
+    color:#EE5014;
 }
 
 #im2t {
@@ -197,9 +461,9 @@ flex-direction: column;
 }
 
 #im3 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #voitt{
@@ -229,7 +493,7 @@ flex-direction: column;
 
 
     #revelt:hover {  
-    	animation: shake 0.5s;
+        animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
 
@@ -249,14 +513,14 @@ flex-direction: column;
 
 .maint{
 
-	    	animation: shake 0.5s;
+            animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
 
 #obligert {
 
-	background-color:red;
-	color:blue;
+    background-color:red;
+    color:blue;
 }
 
 
